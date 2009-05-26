@@ -1,0 +1,21 @@
+;; Object lib/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "lib/"
+  :tables (list 
+   (semanticdb-table "vu.cli.best.concepto.php"
+    :major-mode 'php-mode
+    :tags '(("require_once" function (:prototype-flag t :type ("php" type (:type "class") nil nil)) nil [3 87]))
+    :file "vu.cli.best.concepto.php"
+    :pointmax 7162
+    )
+   (semanticdb-table "vu.cli.best.ontologyconnect.php"
+    :major-mode 'php-mode
+    :tags 'nil
+    :file "vu.cli.best.ontologyconnect.php"
+    :pointmax 2491
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre3"
+  :semanticdb-version "2.0pre3"
+  )

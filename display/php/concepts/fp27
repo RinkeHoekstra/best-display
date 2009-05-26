@@ -1,0 +1,24 @@
+producent
+100	eindprodukt
+ 91	als producent beschouwd
+ 91	leverancier ervan als producent beschouwd
+ 91	leverancier als producent beschouwd
+ 91	op het product aan te brengen
+ 91	op het produkt aan te brengen
+ 91	die zich als producent presenteert
+ 91	fabrikant van een eindproduct
+ 91	fabrikant van een eindprodukt
+ 85	grondstof
+ 81	fabrikant van een onderdeel
+ 70	fabrikant
+ 58	fabrikant van onderdelen
+ 56	producent
+ 51	halffabrikaat
+ 51	zijn merk
+ 50	onderscheidingsteken
+ 35	producent van een grondstof
+ 34	bestanddeel
+ 28	aansprakelijk
+ 28	bestanddelen
+ 26	zijn naam
+ 14	aansprakelijkheid

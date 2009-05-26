@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "For you...?"
+AuthUserFile /usr/local/apache/passwd/passwords
+Require user besten
+

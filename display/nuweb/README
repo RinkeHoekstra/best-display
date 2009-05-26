@@ -1,0 +1,35 @@
+To install this program:
+
+1) Check the presence of the following programs/utilities:
+    bash
+    make
+    m4
+    gawk
+    TeX, LaTeX, pdfLaTeX 
+
+3) Install Nuweb (http://nuweb.sourceforge.net).
+
+4) Make a directory and copy the contents of this directory in it.
+
+5) Copy "template.inst.m4" to "inst.m4" and edit this file.
+
+6) Give the following (unix-style) commands:
+   $ gawk '{gsub(/[\\][\$]/, "$");print}' a_display.w >m_display.w
+   $ m4 -P m_display.w >display.w
+   $ nuweb -t display.w
+
+7) As a result, the directory should at least contain a "Makefile"
+   and a file named "createdirs". Probably there are also a lot
+   of files of which the names match the pattern /nw[0-9]+/.
+   You can remove these files.
+
+8) Create the program sources with command:
+   $ make sources
+
+9) To generate a PDF document with the source code, give command:
+   $ make pdf
+   To print the documented code, print "display.pdf" of give command:
+   $ make print
+
+10) Create html documentation with comand:
+   $ make html.

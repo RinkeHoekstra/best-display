@@ -1,0 +1,15 @@
+;; Object secondorder/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "secondorder/"
+  :tables (list 
+    (semanticdb-table "mkdocs.awk"
+    :major-mode 'awk-mode
+    :tags 'nil
+    :file "mkdocs.awk"
+    :pointmax 451
+    )
+   )
+  :file "semantic.cache"
+  :semantic-tag-version "2.0pre3"
+  :semanticdb-version "2.0pre3"
+  )
